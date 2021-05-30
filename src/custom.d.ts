@@ -1,7 +1,7 @@
 type RootState = {
   recordList: RecordItem[],
   tagList: Tag[],
-  currentTag?: Tag
+  currentTag?: Tag |null
 }
 type RecordItem = {
   tags: Tag[]
@@ -24,5 +24,3 @@ type TagListModel = {
   save: () => void
 }
 
-interface Window {
-}

@@ -8,6 +8,8 @@
   @import "~@/assets/style/helper.scss";
   @import "~@/assets/style/reset.scss";
   body {
+    max-width: 400px;
+    margin: 0 auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #333;

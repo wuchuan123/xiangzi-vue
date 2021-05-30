@@ -5,12 +5,11 @@ import createId from '@/lib/createId';
 import router from '@/router';
 
 Vue.use(Vuex);
-
 const store = new Vuex.Store({
   state: {
     recordList: [],
     tagList: [],
-    currentTag: undefined
+    currentTag: null
   } as RootState,
   mutations: {
     setCurrentTag(state, id: string) {
